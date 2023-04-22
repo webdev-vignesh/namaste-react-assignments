@@ -16,7 +16,7 @@ The role of type attribute in <script> tag is to tell the browser how to interpr
 The most common/ default type attribute is type="text/javascript". We can also use type="module" in script tag to indicate 
 that the script is a javascript module.
   
-### 4. {TitleComponent} vs <TitleComponent /> vs <TitleComponent><TitleComponent/> in JSX?
+### 4. {TitleComponent} vs {<TitleComponent />} vs {<TitleComponent><TitleComponent/>} in JSX?
 {TitleComponent} is a variable containing the react element.
-<TitleComponent /> and <TitleComponent><TitleComponent/> - both syntax are same and valid. 
+{<TitleComponent />} and {<TitleComponent><TitleComponent/>} - both syntax are same and valid. 
 They both represent a React functional component.
